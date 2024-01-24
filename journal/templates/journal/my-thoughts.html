@@ -1,0 +1,106 @@
+{% extends 'journal/navbar.html' %}
+
+{% load static %}
+
+
+
+{% block content %}
+
+    {% for message in messages %}
+                
+        {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+
+            <p id="message-timer" class="alert alert-success float-center text-center message-text"> <i class="fa fa-check" aria-hidden="true"></i> &nbsp; {{message}} </p>   {% comment %}{{messages}} is enclosed in paragraph tag to add some styling {% endcomment %}
+
+
+        {% endif %}
+
+
+    {% endfor %}
+
+    <br>
+    
+    {% for thought in AllThoughts %}
+        <br>
+        <div class="container bg-white shadow-md p-5 form-layout">
+
+           <h2>{{thought.title}}</h2>
+
+           <br>
+
+           {{thought.content}}
+
+           <br>
+
+           {{thought.date_posted}}
+
+           <br>
+           <hr>
+
+           By, {{thought.user}}
+           <br>
+           <br> <br>
+        
+
+           <a  class = "btn btn-outline-primary btn-md w-100 btn-block p-2" href="{% url 'update-thought' thought.id %}"> Update </a>
+
+           <br> <br>
+
+           <a class="btn btn-outline-danger btn-md w-100 btn-block p-2" href="{% url 'delete-thought' thought.id %}"> Delete </a>
+
+
+           
+
+           
+    
+        </div>
+    
+    {% endfor %}
+
+    <br>
+
+    <script src="{% static 'js/app.js' %}"> </script>
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
