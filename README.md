@@ -33,5 +33,8 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 # License
 This project is licensed under the MIT License.
 
-# Render is used for deployment
+# This app is deployed on Render
+![2024-01-28 (1)](https://github.com/Styleblender/Thought-App/assets/144047787/8fbfc351-25b8-4dd9-ba4c-aa41b5870bac)
+
+
 
