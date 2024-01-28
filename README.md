@@ -7,7 +7,7 @@ This is a web application built with Django, HTML, CSS, and JavaScript that allo
 User Authentication: Users can create accounts, log in, and log out securely.
 
 # Profile Mnagement: 
-Users can upload and manage their profile, like update their profile pictures, username, and passwords.
+Users can upload and manage their profile, like update their profile pictures, username, and passwords and delete their account
 
 # Email Reminder: 
 Users receive email reminders in case of registering and reset of password
