@@ -35,6 +35,16 @@ This project is licensed under the MIT License.
 
 # This app is deployed on Render
 ![2024-01-28 (1)](https://github.com/Styleblender/Thought-App/assets/144047787/8fbfc351-25b8-4dd9-ba4c-aa41b5870bac)
+![2024-01-28 (3)](https://github.com/Styleblender/Thought-App/assets/144047787/935c54f1-f223-4b1e-9a9e-a12346daddce)
+![2024-01-28 (4)](https://github.com/Styleblender/Thought-App/assets/144047787/8140571d-8380-4b39-848f-bc36f83abbe8)
+![2024-01-28 (5)](https://github.com/Styleblender/Thought-App/assets/144047787/bc8a0b45-9340-4a75-abe6-662cf57e0b08)
+![2024-01-28 (5)](https://github.com/Styleblender/Thought-App/assets/144047787/fbfd342b-9b78-4cd8-9ec8-e51ccf7a9e02)
+
+
+
+
+
+
 
 
 
