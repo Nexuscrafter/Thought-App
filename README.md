@@ -6,17 +6,17 @@ This is a web application built with Django, HTML, CSS, and JavaScript that allo
 # Features
 User Authentication: Users can create accounts, log in, and log out securely.
 
-# Profile Picture: 
-Users can upload and manage their profile pictures.
+# Profile Mnagement: 
+Users can upload and manage their profile, like update their profile pictures, username, and passwords.
 
 # Email Reminder: 
-Users receive email reminders for important updates or events.
+Users receive email reminders in case of registering and reset of password
 
 # Password Reset: 
 Implemented functionality to reset the password securely.
 
 # Thought Posting: 
-Users can post their thoughts, ideas, or updates for others to see.
+Users can post their thoughts, ideas, or updates for others to see. They can also update and delete their thought.
 
 # Technologies Used
 Django: The web framework used to build the backend and manage server-side logic.
